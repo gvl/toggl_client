@@ -1,5 +1,7 @@
 # TogglClient 
-[![Build Status](https://travis-ci.org/gvl/toggl_client.svg?branch=master)](https://travis-ci.org/gvl/toggl_client) [![Coverage Status](https://coveralls.io/repos/gvl/toggl_client/badge.png)](https://coveralls.io/r/gvl/toggl_client)
+[![Gem Version](https://badge.fury.io/rb/toggl_client.svg)](http://badge.fury.io/rb/toggl_client)
+[![Build Status](https://travis-ci.org/gvl/toggl_client.svg?branch=master)](https://travis-ci.org/gvl/toggl_client)
+[![Coverage Status](https://coveralls.io/repos/gvl/toggl_client/badge.png)](https://coveralls.io/r/gvl/toggl_client)
 
 Ruby client for [Toggl](https://toggl.com) API.
 
