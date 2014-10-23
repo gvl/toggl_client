@@ -1,5 +1,5 @@
-# TogglClient
-
+# TogglClient 
+[![Build Status](https://travis-ci.org/gvl/toggl_client.svg?branch=master)](https://travis-ci.org/gvl/toggl_client) [![Coverage Status](https://coveralls.io/repos/gvl/toggl_client/badge.png)](https://coveralls.io/r/gvl/toggl_client)
 TogglClient is a Ruby client for [Toggl](http://www.toggl.com).
 
 ## Installation
