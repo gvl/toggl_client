@@ -1,17 +1,13 @@
 module Toggl
   class Client
     extend Forwardable
-    # Base url for Toggl API
     URL = 'https://www.toggl.com'.freeze
-
-    # Version of Toggl API used
     API_VERSION = 'v8'.freeze
 
-    # Delegate methods to Faraday::Connection
     def_delegators :connection, :headers
 
-    # Creates instance of Client and call #connection
-    # See #connection documentation
+    # Creates instance of Client and call {#connection}
+    # (see #connection)
     def self.connection(api_token)
       new.connection(api_token)
     end
@@ -22,7 +18,7 @@ module Toggl
     #   connection('1234567890abcdef') # => Faraday::Connection
     #
     # @param api_token [String] Toggl token
-    # @return [Faraday::Connection]
+    # @return [Faraday::Connection] connection object
     def connection(api_token)
       @connection ||= Faraday.new(URL, connection_options) do |f|
         f.request :url_encoded
