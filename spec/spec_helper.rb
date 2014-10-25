@@ -2,6 +2,7 @@ require 'coveralls'
 Coveralls.wear!
 
 require 'rspec'
+require 'toggl_client'
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|

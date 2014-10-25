@@ -1,6 +1,4 @@
 require 'faraday'
 require 'oj'
 require 'toggl_client/version'
-
-module TogglClient
-end
+require 'toggl_client/client'
