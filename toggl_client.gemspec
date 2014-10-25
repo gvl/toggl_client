@@ -5,7 +5,7 @@ require 'toggl_client/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'toggl_client'
-  spec.version       = TogglClient::VERSION
+  spec.version       = Toggl::VERSION
   spec.authors       = ['Igor Dominiak']
   spec.email         = ['dominiak.igor@gmail.com']
   spec.summary       = %q{Toggl ruby client}
